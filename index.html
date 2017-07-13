@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bttn.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+    <div>
+      <h1>Make your choice!</h1>
+      <p id="userText"></p>
+      <p id="cpuText"></p>
+    </div>
+  <div class="buttons">
+    <button type="button" id="userChoiceRock" class="bttn-material-flat bttn-lg">
+      <i class="fa fa-hand-rock-o" aria-hidden="true">
+    </i>Rock</button>
+    <button type="button" id="userChoicePaper" class="bttn-material-flat bttn-lg">
+      <i class="fa fa-hand-paper-o" aria-hidden="true">
+    </i>Paper</button>
+    <button type="button" id="userChoiceScissors" class="bttn-material-flat bttn-lg">
+      <i class="fa fa-hand-scissors-o" aria-hidden="true">
+    </i>Scissors</button>
+  </div>
+  <div>
+    <h2 id="winnerText"></h2>
+    <p id="gamesPlayed">Games Played: 0</p>
+  </div>
+</div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
